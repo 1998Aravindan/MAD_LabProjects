@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#6e2976"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aravindan.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/t1"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Hi this is Aravind"
+        android:textSize="50px"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.245"
+        />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="300dp"
+        android:text="small"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/b1"
+        android:layout_alignBottom="@+id/b1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="48dp"
+        android:text="large"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+</android.widget.RelativeLayout>
